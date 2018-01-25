@@ -1,0 +1,32 @@
+body {
+  background-image: url(img/background/vehicle.jpg);
+  background-color: #696969;
+  }
+
+
+html, body {
+   margin:0;
+   padding:0;
+   height:100%;
+}
+#container {
+   min-height:100%;
+   position:sticky;
+}
+#header {
+   background:transparent;
+   padding:20px;
+ }
+#body {
+   padding:30vh;
+   padding-bottom:10vh;   /* Height of the footer */
+}
+#footer {
+   background:#696969;
+   padding-top: 10px;
+    padding-bottom: 0px;
+    position:fixed;
+    bottom:0;
+    width:100%;
+
+ }
